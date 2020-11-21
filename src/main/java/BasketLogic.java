@@ -16,7 +16,6 @@ public class BasketLogic extends BasketPageElements {
     public String getTitleFirstProductText() {
         String titleFirstProductText = titleFirstProduct.text();
         return titleFirstProductText;
-
     }
 
     public BasketLogic clickBasket() {
@@ -30,11 +29,8 @@ public class BasketLogic extends BasketPageElements {
     }
 
     public BasketLogic checkTitleInBasket(String expectedTitleText) {
-
         String titleBasketProductText = getTitleProductInBasket();
-
         Assert.assertEquals(titleBasketProductText, expectedTitleText);
         return this;
     }
-
 }
