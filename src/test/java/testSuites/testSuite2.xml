@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testSuite2" parallel="classes" thread-count="2">
+
+    <test name="testSuite2">
+        <classes>
+            <class name="Potok"/>
+            <class name="testSuites.Potok2">
+
+        </class>
+    </classes>
+</test>
+
+
+        </suite>
